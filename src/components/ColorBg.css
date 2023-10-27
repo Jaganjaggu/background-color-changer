@@ -12,10 +12,11 @@
     /* background-color: rgb(238, 229, 229); */
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* padding: 20px; */
+    padding: 20px;
     justify-content: center;
     align-items: center;
 }
+
 
 .right-container{
     display: flex;
@@ -23,6 +24,8 @@
     flex-direction: column;
     align-items: end;
 }
+
+
 
 .box-size{
     border-radius: 30px;
@@ -32,6 +35,21 @@
     height:40px;
 
 }
+
+@media (max-width:500px){
+    .color-section{
+        grid-template-columns: 1fr;
+    }
+    .right-container{
+        margin-top: 30px;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .box-size{
+        margin: 10px;
+    }
+}
+
 
 .red-box{
     background-color: red;
