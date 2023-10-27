@@ -1,0 +1,59 @@
+
+.color-container{
+    height: 100vh;
+    display: flex;
+    /* align-items: center; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+.color-section{
+    /* background-color: rgb(238, 229, 229); */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* padding: 20px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container{
+    display: flex;
+    /* justify-content: end; */
+    flex-direction: column;
+    align-items: end;
+}
+
+.box-size{
+    border-radius: 30px;
+    border: 3px solid black;
+    width: 40px;
+    margin: 2px 0;
+    height:40px;
+
+}
+
+.red-box{
+    background-color: red;
+}
+
+.blue-box{
+    background-color: blue;
+}
+
+.grey-box{
+    background-color: grey;
+}
+
+.green-box{
+    background-color: green;
+}
+
+.white-box{
+    background-color: white;
+}
+
+
+.left-container p{
+    font-weight: 100;
+}
